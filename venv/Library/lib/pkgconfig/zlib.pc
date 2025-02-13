@@ -1,0 +1,13 @@
+prefix=D:/DS-Proj/Data-Science-Machine-Learning-DL-NLP/venv/Library
+exec_prefix=D:/DS-Proj/Data-Science-Machine-Learning-DL-NLP/venv/Library
+libdir=D:/DS-Proj/Data-Science-Machine-Learning-DL-NLP/venv/Library/lib
+sharedlibdir=D:/DS-Proj/Data-Science-Machine-Learning-DL-NLP/venv/Library/lib
+includedir=D:/DS-Proj/Data-Science-Machine-Learning-DL-NLP/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
